@@ -1,0 +1,11 @@
+[code lang="xml"]
+<?xml version="1.0" encoding="UTF-8" ?>
+<extentreports>
+<configuration>
+<encoding>UTF-8</encoding>
+<documentTitle>OTIF Report</documentTitle> <!– This title will be displayed as browser title for the page –>
+<reportName>Project OTIF</reportName> <!– This will be your report heading –>
+<reportHeadline>Automation Report on OTIF</reportHeadline>
+</configuration>
+</extentreports>
+[/code]

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Order(failed)">
+    <classes>
+      <class name="test.OrderTest">
+        <methods>
+          <include name="getReporter"/>
+          <include name="SearchOrderWithreceptionDate"/>
+          <include name="closeextend"/>
+        </methods>
+      </class> <!-- test.OrderTest -->
+    </classes>
+  </test> <!-- Order(failed) -->
+</suite> <!-- Failed suite [Suite] -->

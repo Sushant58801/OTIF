@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="14" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="109072" started-at="2019-03-13T08:28:20Z" finished-at="2019-03-13T08:30:09Z">
+    <groups>
+    </groups>
+    <test name="Login" duration-ms="7958" started-at="2019-03-13T08:28:20Z" finished-at="2019-03-13T08:28:28Z">
+      <class name="test.LoginTest">
+        <test-method status="PASS" signature="checkloginpage()[pri:1, instance:test.LoginTest@485966cc]" name="checkloginpage" duration-ms="930" started-at="2019-03-13T13:58:20Z" finished-at="2019-03-13T13:58:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkloginpage -->
+        <test-method status="PASS" signature="invalidLogin()[pri:2, instance:test.LoginTest@485966cc]" name="invalidLogin" duration-ms="1617" started-at="2019-03-13T13:58:21Z" finished-at="2019-03-13T13:58:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method status="PASS" signature="AdminvalidLogin()[pri:3, instance:test.LoginTest@485966cc]" name="AdminvalidLogin" duration-ms="5391" started-at="2019-03-13T13:58:23Z" finished-at="2019-03-13T13:58:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdminvalidLogin -->
+      </class> <!-- test.LoginTest -->
+    </test> <!-- Login -->
+    <test name="import" duration-ms="23322" started-at="2019-03-13T08:28:28Z" finished-at="2019-03-13T08:28:51Z">
+      <class name="test.ImportExcel">
+        <test-method status="PASS" signature="OtherthenExcel()[pri:1, instance:test.ImportExcel@550dbc7a]" name="OtherthenExcel" duration-ms="3041" started-at="2019-03-13T13:58:28Z" finished-at="2019-03-13T13:58:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OtherthenExcel -->
+        <test-method status="PASS" signature="InvalidRowsCount()[pri:2, instance:test.ImportExcel@550dbc7a]" name="InvalidRowsCount" duration-ms="3075" started-at="2019-03-13T13:58:31Z" finished-at="2019-03-13T13:58:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidRowsCount -->
+        <test-method status="PASS" signature="InvalidTables()[pri:3, instance:test.ImportExcel@550dbc7a]" name="InvalidTables" duration-ms="2756" started-at="2019-03-13T13:58:34Z" finished-at="2019-03-13T13:58:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidTables -->
+        <test-method status="PASS" signature="validExcelfile()[pri:4, instance:test.ImportExcel@550dbc7a]" name="validExcelfile" duration-ms="14443" started-at="2019-03-13T13:58:37Z" finished-at="2019-03-13T13:58:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validExcelfile -->
+      </class> <!-- test.ImportExcel -->
+    </test> <!-- import -->
+    <test name="motif" duration-ms="9867" started-at="2019-03-13T08:28:51Z" finished-at="2019-03-13T08:29:01Z">
+      <class name="test.MotifTest">
+        <test-method status="PASS" signature="CreateNewMOTIF()[pri:1, instance:test.MotifTest@61001b64]" name="CreateNewMOTIF" duration-ms="5975" started-at="2019-03-13T13:58:51Z" finished-at="2019-03-13T13:58:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewMOTIF -->
+        <test-method status="PASS" signature="EditMOTIF()[pri:2, instance:test.MotifTest@61001b64]" name="EditMOTIF" duration-ms="3888" started-at="2019-03-13T13:58:57Z" finished-at="2019-03-13T13:59:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditMOTIF -->
+      </class> <!-- test.MotifTest -->
+    </test> <!-- motif -->
+    <test name="user" duration-ms="11245" started-at="2019-03-13T08:29:01Z" finished-at="2019-03-13T08:29:13Z">
+      <class name="test.UserTest">
+        <test-method status="PASS" signature="CreateNewUser()[pri:1, instance:test.UserTest@2dc54ad4]" name="CreateNewUser" duration-ms="5081" started-at="2019-03-13T13:59:01Z" finished-at="2019-03-13T13:59:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewUser -->
+        <test-method status="PASS" signature="EditNewUser()[pri:2, instance:test.UserTest@2dc54ad4]" name="EditNewUser" duration-ms="6161" started-at="2019-03-13T13:59:06Z" finished-at="2019-03-13T13:59:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditNewUser -->
+      </class> <!-- test.UserTest -->
+    </test> <!-- user -->
+    <test name="Order" duration-ms="56612" started-at="2019-03-13T08:29:13Z" finished-at="2019-03-13T08:30:09Z">
+      <class name="test.OrderTest">
+        <test-method status="PASS" signature="getReporter()[pri:0, instance:test.OrderTest@4efac082]" name="getReporter" is-config="true" duration-ms="220" started-at="2019-03-13T13:58:20Z" finished-at="2019-03-13T13:58:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getReporter -->
+        <test-method status="PASS" signature="SearchOrderWithOrdnumber()[pri:1, instance:test.OrderTest@4efac082]" name="SearchOrderWithOrdnumber" duration-ms="8484" started-at="2019-03-13T13:59:13Z" finished-at="2019-03-13T13:59:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchOrderWithOrdnumber -->
+        <test-method status="PASS" signature="SearchOrderWithcreationDate()[pri:2, instance:test.OrderTest@4efac082]" name="SearchOrderWithcreationDate" duration-ms="13264" started-at="2019-03-13T13:59:21Z" finished-at="2019-03-13T13:59:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchOrderWithcreationDate -->
+        <test-method status="PASS" signature="SearchOrderWithreceptionDate()[pri:3, instance:test.OrderTest@4efac082]" name="SearchOrderWithreceptionDate" duration-ms="34860" started-at="2019-03-13T13:59:34Z" finished-at="2019-03-13T14:00:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchOrderWithreceptionDate -->
+        <test-method status="PASS" signature="closeextend()[pri:0, instance:test.OrderTest@4efac082]" name="closeextend" is-config="true" duration-ms="258" started-at="2019-03-13T14:00:09Z" finished-at="2019-03-13T14:00:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeextend -->
+      </class> <!-- test.OrderTest -->
+    </test> <!-- Order -->
+  </suite> <!-- Suite -->
+</testng-results>
